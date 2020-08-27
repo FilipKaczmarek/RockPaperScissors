@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK, PAPER, SCISSORS!</title>
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="main-view">
+        <h1>ROCK, PAPER & SCISSORS GAME!</h1>
+
+        <div class="game-view">
+            <div class="choice">
+                <div class="choice-box player-choice__box"></div>
+                <h2>Your choice:</h2>
+            </div>
+            <div class="choice">
+                <div class="choice-box computer-choice__box"></div>
+                <h2>Computer's Choice:</h2>
+            </div>
+        </div>
+        <div class="btn-div">
+            <button class="btn-play">Let's play!</button>
+        </div>
+
+        <div class="result-information">
+            <h1>Result:</h1> <p class="whoWins"></p>
+        </div>
+        
+        <div class="rockpaperscisorss">
+            <button class="btn-rock game-choice__button">Rock</button>
+            <button class="btn-paper game-choice__button">Paper</button>
+            <button class="btn-scissors game-choice__button">Scissors</button>
+        </div>
+    </section>
+    
+   <script src="script.js"></script>
+</body>
+
+</html>
